@@ -8,13 +8,8 @@
 #include <stdio.h>
 #include <string.h>
 #include "pico/stdlib.h"
-#include "hardware/i2c.h"
 #include "pico/binary_info.h"
-
-#define ADDR 0x3c
-#define SDA_PIN 18
-#define SCL_PIN 19
-#define I2C_PORT_1	i2c1
+#include "i2c.h"
 
 #define MAX_COL	128
 #define MAX_ROW	64
